@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>REED Dashboard</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="map"></div>
+  <div id="sidebar">
+    <h2>Sensors</h2>
+    <p>Temp: <span id="temp">--</span> °F</p>
+    <p>Smoke: <span id="smoke">--</span></p>
+    <p>Humidity: <span id="humidity">--</span>%</p>
+
+    <h2>Units</h2>
+    <div id="units"></div>
+
+    <h2>Drones</h2>
+    <div id="drones"></div>
+
+    <h2>Live Cameras</h2>
+    <div id="cameras"></div>
+
+    <h2>Obstacles</h2>
+    <ul id="obstacles"></ul>
+
+    <h2>Action Reports</h2>
+    <ul id="reports"></ul>
+
+    <h2>Sensor Sites</h2>
+    <ul id="sensor-sites"></ul>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
